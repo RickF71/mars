@@ -1,0 +1,59 @@
+<html> 
+  <head>
+    <title>Employee Interests Survey</title> 
+  </head>
+
+  <body style="margin:0 auto;"> 
+    <h1>Employee Interests Survey Form</h1> 
+
+    <form action="#" method="post">
+        <p>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name"> <br />
+        </p>
+        <p>
+            <label for="department">Enter your department:</label>
+            <input type="text" id="department" name="department"> <br />
+        </p>
+
+            <label for="about_yourself">Tell us a little about yourself:</label>
+            <textarea id="about_yourself" name="w3rabout_yourselfeview" rows="4" cols="50">
+            </textarea>
+        
+        <p>
+            Do you exercise at home? 
+            <input type="radio" id="yes" name="exercise" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="exercise" value="no">
+            <label for="no">No</label>
+        </p>
+        <p>
+            How do you like to read about your favorite topics?
+        </p>
+        <p>
+            <input type="checkbox" id="books" name="books" value="books">
+            <label for="books">Books</label>
+            <input type="checkbox" id="online" name="online" value="online">
+            <label for="online">Online Resources</label>
+            <input type="checkbox" id="phone" name="phone" value="phone">
+            <label for="phone">Phone apps</label>
+            <input type="checkbox" id="magazines" name="magazines" value="magazines">
+            <label for="magazines">Magazines</label>
+        </p>
+        <p>
+            <label for="genre">What genre of movies do you like?</label>
+
+            <select name="genre" id="genre">
+                <option value="comedy">Comedy</option>
+                <option value="scifi">Science Fiction</option>
+                <option value="action">Action</option>
+                <option value="romcom">Romantic Comedy</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </p>
+    </form>
+  </body>
+</html>
