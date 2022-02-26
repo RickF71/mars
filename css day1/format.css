@@ -3,16 +3,26 @@ body {
     margin:0  auto;
     width: 90%;
     border: 2px solid green;
+    font-size:1.25em;
+}
+
+p:nth-child(even) {
+     background-color: orange;
 }
 
 table {
     margin: 0 auto;
     padding: 5px;
+    font-size:1.5em;
 }
 caption {
-    font-size: 1.5em;
+    font-size: 3em;
     background-color: lightgreen;
-    text-shadow: 2px 2px gray;
+    text-shadow: 2px 2px rgb(31, 53, 38);
+}
+
+.shad {
+    text-shadow: 2px 2px green;
 }
 tr {
     text-align: center;
@@ -21,8 +31,35 @@ tr {
 th {
     text-transform: uppercase;
     text-align: center;
+    padding: 5px;
 }
 
 td {
     text-align: center;
+    padding: 5px;
 }
+
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(252, 248, 248);
+    background-color: green;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
