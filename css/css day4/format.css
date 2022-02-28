@@ -1,4 +1,5 @@
-
+/* the width and height are currently hard coded,
+    not very responsive */
 .container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
