@@ -1,0 +1,16 @@
+html {
+    background: gray;
+}
+
+/* note this input can also be used in a textarea by just changing it to textarea
+    or even specific IDs or classes, normal CSS rules apply */
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+    background: lightsalmon;
+}
+
+ul { 
+    list-style-type: "\1F600";
+}
