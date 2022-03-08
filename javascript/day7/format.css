@@ -1,9 +1,10 @@
 html {
-    background: lightyellow;
+    background: black;
 }
 
 body {
     font-size: 1.5em;
+    background: black;
 }
 
 button {
@@ -16,4 +17,10 @@ button {
     text-align: center;
     border: 2px solid;
     background: yellow;
+}
+
+#container {
+    text-align: center;
+    border: 2px solid;
+    background: rgb(206, 206, 123);
 }

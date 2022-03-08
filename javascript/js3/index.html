@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="format.css">
+        <script src="main.js"></script>
+        <title>
+            JS Assignment 3
+        </title>
+    </head>
+
+    <body>
+        <div class="container" id="container">
+            <form class="form" name="empEntry" id="empEntry">
+                <div class="form-group col-sm-12">
+                    <br /><br />
+                    <p>
+
+                        <label for="empName">Name</label>
+                        <input type="text" id="empName" name="empName">
+                    </p>
+                    <p>
+                        <label for="empId">ID</label>
+                        <input type="number" id="empId" name="empId">
+                    </p>
+                    <p>
+                        <label for="joiningDate">Joining Date</label>
+                        <input type="date" id="joiningDate" name="joiningDate">
+                    </p>
+                    <p>
+                        <label for="hoursWorked">Hours Worked</label>
+                        <input type="number" id="hoursWorked" name="hoursWorked">
+                    </p>
+                    <p>
+                        <label for="empDesignation">Designation</label>
+                        <select name="empDesignation" id="empDesignation">
+                            <option value="manager">Manager</option>
+                            <option value="consultant">Consultant</option>
+                            <option value="trainee">Trainee</option>
+                        </select>
+                    </p>
+                    <a href="#" class="btn btn-primary" role="button" onclick="verifyAndSubmit(this.FormData);">Submit Data</a>
+                </div>
+            </form>
+        </div>
+        <div id="result"></div>
+    </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    
+</html>
